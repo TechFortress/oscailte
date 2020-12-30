@@ -40,12 +40,12 @@ $social-map: (
 :root {
   --header-background: #000000;
   --theme-background: #000000;
-  --theme-color: #c2c2c2;
+  --theme-color: #ffffff;
 
   /**
    * Root properties, typically colour declarations, but contains other things too.
    */
-  --color-primary:          #00a6ed;
+  --color-primary:          #1eff00;
   --color-secondary:        #bf1ca9;
   --color-positive:         #5ad42f;
   --color-negative:         #d4372f;
@@ -68,13 +68,13 @@ $social-map: (
   --typography-body-family: "Segoe UI", "Merriweather", serif;
   --typography-heading-family: "Segoe UI Light", "Lato", serif;
   --typography-link-text-shadow-color: var(--theme-background);
-  
+
   /**
   * General shared properties.
   */
   --box-shadow: 0 0 7px rgba(0, 0, 0, 0.05);
   --box-shadow_hover: 0 0 15px rgba(0, 0, 0, 0.15);
-  
+
   /**
   * Component declarations
   */
