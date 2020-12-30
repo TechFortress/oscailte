@@ -38,14 +38,14 @@ $social-map: (
 @include generate-typography-properties($typography-config);
 
 :root {
-  --header-background: #000000;
+  --header-background: #000141;
   --theme-background: #000000;
   --theme-color: #ffffff;
 
   /**
-   * Root properties, typically colour declarations, but contains other things too.
+   * Root properties, typically color declarations, but contains other things too.
    */
-  --color-primary:          #1eff00;
+  --color-primary:          #00a136;
   --color-secondary:        #bf1ca9;
   --color-positive:         #5ad42f;
   --color-negative:         #d4372f;
