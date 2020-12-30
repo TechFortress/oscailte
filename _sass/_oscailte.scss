@@ -38,8 +38,8 @@ $social-map: (
 @include generate-typography-properties($typography-config);
 
 :root {
-  --theme-background: #f5f6fa;
-  --theme-color: #282828;
+  --theme-background: #000000;
+  --theme-color: #c2c2c2;
 
   /**
    * Root properties, typically colour declarations, but contains other things too.
@@ -64,8 +64,8 @@ $social-map: (
   * Base typography settings.
   * Other typography settings will inherit/extend upon these.
   */
-  --typography-body-family: "Merriweather", serif;
-  --typography-heading-family: "Lato", serif;
+  --typography-body-family: "Segoe UI", "Merriweather", serif;
+  --typography-heading-family: "Segoe UI Light", "Lato", serif;
   --typography-link-text-shadow-color: var(--theme-background);
   
   /**
