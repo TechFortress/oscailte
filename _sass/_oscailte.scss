@@ -38,6 +38,7 @@ $social-map: (
 @include generate-typography-properties($typography-config);
 
 :root {
+  --header-background: #000000;
   --theme-background: #000000;
   --theme-color: #c2c2c2;
 
